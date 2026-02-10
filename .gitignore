@@ -1,0 +1,67 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Entity Framework
+# =========================
+**/Migrations/*.cs
+!**/Migrations/*Initial*.cs
+**/Migrations/*.Designer.cs
+**/Migrations/*.resx
+
+# (Opzionale) database locali
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# =========================
+# Secrets & config locali
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+.nuget/
+
+# =========================
+# Test results
+# =========================
+TestResults/
